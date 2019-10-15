@@ -65,7 +65,7 @@ header#cabecalho h2 {
 }
 
 
-/* formatação de imagem com legenda*/
+/*formatação de imagem com legenda*/
 
 figure.foto-legenda {
     position: relative;
@@ -82,7 +82,7 @@ figure.foto-legenda figcaption {
     opacity: 0;
     position: absolute;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
+   /* background-color: rgba(0, 0, 0, 0.4); */
     height: 100%;
     width: 100%;
     box-sizing: border-box;
@@ -90,11 +90,21 @@ figure.foto-legenda figcaption {
     transition: opacity 1s;
     color: white
 }
-
+/*
 figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
-
+figure {
+    float: left;
+    width: 100%;
+    text-align: start;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
 
 /*Formação menu*/
 

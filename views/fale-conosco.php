@@ -16,14 +16,14 @@
                     <fieldset id="tusuario">
                         <legend>Identificação do Usuário</legend>
                         <p><label for="cnome"> 
-                        Nome:</label> <input type="text" name="tnome" id="cnome" size="20" maxlength="250" placeholder="Nome Completo" required></p>
+                        Nome:</label> <input type="text" name="nome" id="cnome" size="20" maxlength="250" placeholder="Nome Completo" required></p>
                         </fieldset>
                     <br>
                     <fieldset id="tmensagem">
                         <legend>Mensagem do Usuário</legend>
 
                         <p><label for="cmensagem"> Mensagem:</label>
-                            <textarea name="tmensagem" id="cmensagem" cols="35" rows="5" placeholder="Deixe sua mensagem" required></textarea>
+                            <textarea name="mensagem" id="cmensagem" cols="35" rows="5" placeholder="Deixe sua mensagem" required></textarea>
                         </p>
                     </fieldset>
                     <br>
@@ -46,19 +46,12 @@
           
         
 			while ($linha = mysqli_fetch_array($consultas)){
-				echo $linha['tnome'];
-				echo $linha['tmensagem'];
+				echo $linha['nome'];
+				echo $linha['mensagem'];
 		
 			}
 		?>
-	>
-
-                    
-                    [NOME]  <BR>
-                    [MENSAGEM]<BR>
-                    [alterar] [deletar]<BR>
-         
-
+	
                
            
  

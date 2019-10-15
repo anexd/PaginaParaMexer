@@ -1,5 +1,7 @@
 <footer id="rodape">
-    <p>Copyright &copy; <br>
+    <p> "O homem não teria alcançado o possível se, repetidas vezes, não tivesse tentado o impossível." </p>
+           <p><strong> Max Weber</strong> </p>
+     <br>
 
 
 </footer>

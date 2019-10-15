@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html pt-br>
+<head>
+    <meta charset="utf-8">
+</head>
+
+
+<body>
+    
+
+<p> <b> 1 - Defina 5 passos de um sistema de PDI. </b></p>
+<ol> 
+    <li>Aquisição;</li>
+    <li>Pré-processamento;</li>
+    <li>segementação;</li>
+    <li>extração de características;</li>
+    <li>Classificação/Interpretação.</li>
+</ol>
+<br>
+<p> <b> 2 - Classifique as operações de processamento de imagens </b></p>
+ 
+     De duas formas 
+    <ol>
+       <li>Modo de busca</li>
+       <ul>
+           <li>Pontual</li>
+           <li>Agrupamento</li>
+           <li>Vizinhança</li>
+       </ul> 
+       <li> Processamento</li>
+        <ul>
+            <li>Linear</li>
+            <li>Não linear</li>
+       </ul>
+    </ol>
+   <br>
+   <p> <b> 3 - Quais os passos necessário para digitalizar uma imagem </b></p>
+   <ol> 
+    <li>Efetuar aquisição de uma imagem analógica;</li>
+    <li>Identificar a amostra;</li>
+    <li>Damos valor a amostra(Quantificação);</li>
+    <li>Digitalizamos a Quantificação;</li>
+    
+</ol>
+<br>
+<p> <b> 4 - O que é histograma? </b></p>
+<p><em> É a ferramenta utilizada para mostrar a frequência com que algo se apresenta.</em></p>
+<img src="https://fotografiamais.com.br/wp-content/uploads/2019/05/histograma-fotografiao-o-que-e.jpg" alt="histograma"  width="400" height="400">
+<br>
+<p> <b> 5 - Como calcular um histograma? </b></p>
+<ol>
+   <li> Determinar a amostra; </li> 
+   <li>Amplitude (R)  R= MaiorAmostra-MenorAmostra ;</li> 
+   <li> Escolher k (Número de classes); </li> 
+   <li>Intervalo de classes     H = R/k;</li> 
+   <li>Calcular os limites de classes  Ls=Li + H.</li>
+</ol>
+<p>Exemplo:</p>
+
+<table border="1">
+    <tr>
+    <th>Classes</th>
+    <th>Intervalo</th>
+    <th>frequência</th>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>3 ATÉ 5</td>
+    <td>3</td>
+    </tr>
+    <tr>
+    <td>2</td>
+    <td>5 ATÉ 7</td>
+    <td>2</td>
+    </tr>
+    <td>1 </td>
+    <td>7 ATÉ 9</td>
+    <td>5</td>
+
+</table>
+<br>
+<p> <b> 6 - Explique como funcionam os detectores de contorno baseados em Gradiente de Robert, Prewitt, Sobel e Laplace  </b></p>
+<p><B> Gradiente de Robert</B><em>  As equações acimas podem ser implementadas por máscaras de tamanho de 2x2 e são chamados de operadores cruzados de gradiente de Robert
+sendo que a soma de todos os coeficientes da máscara é igual a zero. Nas regiões de os pixels estão situados entre duas fronteiras o resultado do operador é diferente de zero.
+</em> </p>
+<p><B> Gradiente de Prewitt</B><em> É  uma máscara de tamnho 3x3 se divide em busca de canais x e y. Usado para bordas externas</em> </p>
+<p><B> Gradiente de Sobel </B><em> É  uma máscara de tamnho 3x3 se divide em busca de canais x e y. Usado para bordas internas</em> </p>
+<p><B> Gradiente de Laplace</B><em>  Iterativo, não-linear, Identifica bordas internas e externas</em> </p>
+<br>
+<p> <b> 7 - O que são transformações morfológicas? indique como funciona o filtro de erosão e de dilatação?  </b></p>
+<p><em>São transformações que resultam na alteração da forma de imagem</em></p>
+<p><em></em></p>
+</body>
+</html>

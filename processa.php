@@ -5,13 +5,17 @@ include 'db.php';
  
 
     
-$tnome = $_POST['tnome'];
+$nome = $_POST['nome'];
 
-$tmensagem=$_POST['tmensagem'];
+$mensagem=$_POST['mensagem'];
 
-$query ="INSERT INTO  usuario (tnome,tmensagem) values ('$tnome','$tmensagem')";
+echo $nome;
+echo $mensagem;
+
+
+//$query ="Insert into  usuario (nome,mensagem) values ('$nome','$mensagem')";
  
-mysqli_query($conexao,$query);
+//mysqli_query($conexao,$query);
 
 
 
