@@ -8,12 +8,18 @@
                 <p>Existem áreas que auxiliam o processamento de imagem como : Visão computacional, computação gráfica e inteligência artificial e  cada uma delas
                  pode combinadas geram  algoritmos interessante como é o caso de do algoritmo de identificação de rostos ou  </p>
 
-                <a href="https://jornal.usp.br/artigos/processamento-de-imagens-como-solucoes-praticas-ao-agronegocio/">Veja o Artigo para mais informações </a>
+                <a  href="https://jornal.usp.br/artigos/processamento-de-imagens-como-solucoes-praticas-ao-agronegocio/" target="_blank">Veja o Artigo para mais informações </a>
                 <br>
-                <a href="https://slideplayer.com.br/slide/355725/">ver artigo depois </a>
+                <a href="https://slideplayer.com.br/slide/355725/" target="_blank">ver artigo depois </a>
 
             
             
+
+
+                <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+
+
+
             </article>
     
     

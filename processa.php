@@ -9,13 +9,11 @@ $nome = $_POST['nome'];
 
 $mensagem=$_POST['mensagem'];
 
-echo $nome;
-echo $mensagem;
 
 
-//$query ="Insert into  usuario (nome,mensagem) values ('$nome','$mensagem')";
+$query ="Insert into  usuario (nome,mensagem) values ('$nome','$mensagem')";
  
-//mysqli_query($conexao,$query);
+mysqli_query($conexao,$query);
 
 
 

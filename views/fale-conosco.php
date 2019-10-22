@@ -13,24 +13,27 @@
                 <form action="processa.php" id="tcontato" method="post">
 
                 
-                    <fieldset id="tusuario">
-                        <legend>Identificação do Usuário</legend>
-                        <p><label for="cnome"> 
-                        Nome:</label> <input type="text" name="nome" id="cnome" size="20" maxlength="250" placeholder="Nome Completo" required></p>
-                        </fieldset>
-                    <br>
-                    <fieldset id="tmensagem">
-                        <legend>Mensagem do Usuário</legend>
-
-                        <p><label for="cmensagem"> Mensagem:</label>
-                            <textarea name="mensagem" id="cmensagem" cols="35" rows="5" placeholder="Deixe sua mensagem" required></textarea>
-                        </p>
-                    </fieldset>
-                    <br>
+                <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="input_text" type="text" data-length="10" name="nome">
+            <label for="input_text">Nome</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea2" class="materialize-textarea" data-length="120" name="mensagem"></textarea>
+            <label for="textarea2">Mensagem</label>
+          </div>
+        </div>
+      </form>
+    </div>
                   
-                    <input type="image" name="tEnviar" src="_imagens/botao-enviar.png">
-
-                    <br>
+    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+    
+    <i class="material-icons right"></i>
+  </button>
                     </form>
 
                     <hr>
@@ -45,7 +48,7 @@
             
           
         
-			while ($linha = mysqli_fetch_array($consultas)){
+            while ($linha = mysqli_fetch_array($consultas)){
 				echo $linha['nome'];
 				echo $linha['mensagem'];
 		
