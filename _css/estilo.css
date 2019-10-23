@@ -88,9 +88,10 @@ section {
     
     width: 750px;
     
-    float: left;
-    */
+    f
+    
     border-right: 1px solid #606060;
+    */
     padding-right: 15px;
 }
 
@@ -142,13 +143,19 @@ aside h1 {
     margin-top: 0px;
 }
 
+
 aside h2 {
     background-color: #606060;
     font-size: 13pt;
     color: #ffffff;
     padding: 5px;
 }
-
+h5.form{
+    margin-bottom:25px ;
+}
+div.button{
+    margin-top:25px;
+}
 footer.rodape {
     clear: both;
     border-top: 1px solid #606060;

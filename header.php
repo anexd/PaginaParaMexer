@@ -36,8 +36,17 @@
         </div>
     </nav>
 
-<br>
+<br> 
+<div class="nav-wrapper">
+        
+<a href="#" ></a>
+        
+<a href="#" class="sidenav-trigger" data-target="mobile-nav">
+          
+<i class="material-icons">menu</i>
+</a>
     <ul class="sidenav  indigo" id="mobile-nav">
+  
       <li > <a  href="?pagina=index"><p class="float-text">Home</p></a></li>
       <li><a href="?pagina=estudos"><p>Aplicação</p></a></li>
      
