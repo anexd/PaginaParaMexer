@@ -47,22 +47,12 @@
                    
                    
 <hr>
-
-                    
-                    
-
-
-
-
-        <?php 
-            
-          
-        
-            while ($linha = mysqli_fetch_array($consultas)){
-				echo $linha['nome'];
-				echo $linha['mensagem'];
+ <?php 
+ while ($linha = mysqli_fetch_array($consultas)){
+		echo $linha['nome'];
+		echo $linha['mensagem'];
 		
-			}
+		}
 		?>
 	
                
