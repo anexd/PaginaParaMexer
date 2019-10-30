@@ -11,8 +11,7 @@
                 <div class="social">
             <ul>
               <li><a><img src="_imagens/facebook.png" alt="facebook"></a></a></li>
-              <li><a class="waves-effect waves-light social-icon btn yahoo">
-<i class="fa fa-yahoo"></i></a></i></a></li>
+              <li><a></a></a></li>
               <li><a href=""><i class="fab fa-twitter"></i></a></li>
               <li><a href=""><i class="fab fa-youtube"></i></a></li>
             </ul>

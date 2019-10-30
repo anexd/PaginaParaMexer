@@ -1,0 +1,10 @@
+define("odsp-next/controls/promotedPhotos/PromotedPhotos.resx",["exports"],function(e){e.strings={"exploreRecentPhotosTitle":"Explore suas fotos","exploreRecentPhotosLabel":"Explore suas Fotos; agrupadas por marca, álbum, local ou por aquelas compartilhadas com você","onThisDayTitle":"Neste dia","seeAllTitle":"Ver tudo","autoAlbumCardTitle":"Criado para você!","recentTagsTitle":"Marcas recentes","recentPlacesTitle":"Locais recentes","sharedAlbumTitle":"Compartilhado com você","shareActionTitle":"Compartilhar","ItemTileCardArialabel":"{0} {1} de {2} "}});
+define("@ms/items-view-addon-photos/lib/components/groupHeader/GroupHeader.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "locationmoreLabel":"{0} e mais {1}",
+    "GroupHeaderAriaLabel":"Selecionar todas as fotos de {0}" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});

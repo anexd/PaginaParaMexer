@@ -23,18 +23,18 @@
     <div class="nav-wrapper blue accent-2">
       <a href="#!" class="brand-logo"></a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li> <a  href="?pagina=index">Home</a></li>
-        <li><a href="?pagina=estudos">Aplicação</a></li>
-        <li ><a  href="?pagina=fale-conosco">Fale Conosco</a></li>
+      <ul class="  right hide-on-med-and-down">
+        <li > <a class="flow-text" href="?pagina=index">Home</a></li>
+        <li><a class="flow-text" href="?pagina=estudos">Aplicação</a></li>
+        <li ><a class="flow-text" href="?pagina=fale-conosco">Fale Conosco</a></li>
       </ul>
     </div>
   </nav>
 
-  <ul class="sidenav" id="mobile-demo">
-    <li> <a  href="?pagina=index">Home</a></li>
-    <li><a href="?pagina=estudos">Aplicação</a></li>
-    <li ><a  href="?pagina=fale-conosco">Fale Conosco</a></li>
+  <ul class="sidenav  blue accent-2" id="mobile-demo">
+    <li><a class="flow-text" href="?pagina=index">Home</a></li>
+    <li><a class="flow-text" href="?pagina=estudos">Aplicação</a></li>
+    <li><a class="flow-text" href="?pagina=fale-conosco">Fale Conosco</a></li>
   </ul>
 
 
@@ -66,15 +66,6 @@
            
             
         </header>
-<!--
-            </hgroup>
-           
-            <img id="icone" src="_imagens/image.png"> 
- <hgroup>
-                <h1>Processamento de imagens</h1>
-                <h2> Uma técnica interessante manipular imagens</h2>
-            </hgroup>
-      -->
 
     
 
